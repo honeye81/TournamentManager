@@ -31,7 +31,7 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
 
 // Register services
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IServiceManager, ServiceManager>();  
+//builder.Services.AddScoped<IServiceManager, ServiceManager>();  
 
 // Swagger configuration
 builder.Services.AddEndpointsApiExplorer();
